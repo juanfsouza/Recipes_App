@@ -5,16 +5,7 @@
 
 </div>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
-
-## Description
-
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
-
-## Run Project Screen
+### Run Project Screen
 
 ![Screenshot_4](https://github.com/user-attachments/assets/985c361d-7f08-4476-9d25-94ba2aea12df)
 ![Screenshot_5](https://github.com/user-attachments/assets/98437b90-caeb-49dc-8eeb-85f096c1c34a)
@@ -23,11 +14,11 @@ With Mau, you can deploy your application in just a few clicks, allowing you to 
 ![Screenshot_8](https://github.com/user-attachments/assets/99525e4a-5990-465e-adb7-40a9e15d1888)
 
 
-**# Recipes App Backend
+### Recipes App Backend
 
 This is the backend API for the Recipes App, built with **NestJS**, **Prisma**, and integrated with **Supabase** for database management. It provides a RESTful API to manage recipes, including CRUD operations.
 
-## Table of Contents
+### Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
@@ -41,23 +32,23 @@ This is the backend API for the Recipes App, built with **NestJS**, **Prisma**, 
 - [Contributing](#contributing)
 - [License](#license)
 
-## Overview
+### Overview
 The Recipes App Backend is a scalable API designed to handle recipe data, including titles, descriptions, ingredients, and timestamps. It uses PostgreSQL (via Supabase) as the database and Prisma as the ORM for database interactions. The API is deployed on Render and can be integrated with a frontend application.
 
-## Features
+### Features
 - Create, read, update, and delete (CRUD) recipes.
 - Data validation using NestJS pipes.
 - CORS support for frontend integration.
 - Prisma migrations for database schema management.
 
-## Prerequisites
+### Prerequisites
 - Node.js (version 22.14.0 or later)
 - PNPM (version 8.x or later)
 - Git
 - A Supabase account for database hosting
 - Render account for deployment (optional)
 
-## Installation
+### Installation
 1. Clone & Start the project:
    ```bash
    git clone https://github.com/juanfsouza/Recipes_App.git
@@ -83,7 +74,7 @@ The database schema is defined in prisma/schema.prisma. The current model includ
 
 Recipe: Contains id, title, description, ingredients, createdAt, and updatedAt.
 
-## API Endpoints
+### API Endpoints
 All endpoints are prefixed with /recipes. The base URL for the deployed API is https://recipes-app-jaez.onrender.com.
 
 ### GET /recipes
