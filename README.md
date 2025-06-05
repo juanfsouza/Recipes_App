@@ -9,19 +9,6 @@
 ### Overview
 The Recipes App Backend is a scalable API designed to handle recipe data, including titles, descriptions, ingredients, and timestamps. It uses PostgreSQL (via Supabase) as the database and Prisma as the ORM for database interactions. The API is deployed on Render and can be integrated with a frontend application.
 
-### Test App
-
-Endpoint: https://recipes-app-jaez.onrender.com/
-
-### Run Screen
-
-![Screenshot_4](https://github.com/user-attachments/assets/985c361d-7f08-4476-9d25-94ba2aea12df)
-![Screenshot_5](https://github.com/user-attachments/assets/98437b90-caeb-49dc-8eeb-85f096c1c34a)
-![Screenshot_6](https://github.com/user-attachments/assets/519b7fa0-bb18-4416-bed0-483e28694ba3)
-![Screenshot_7](https://github.com/user-attachments/assets/403197b3-e3a3-48f8-8900-aff600ad37ae)
-![Screenshot_8](https://github.com/user-attachments/assets/99525e4a-5990-465e-adb7-40a9e15d1888)
-
-
 ### Recipes App Backend
 
 This is the backend API for the Recipes App, built with **NestJS**, **Prisma**, and integrated with **Supabase** for database management. It provides a RESTful API to manage recipes, including CRUD operations.
@@ -34,6 +21,15 @@ This is the backend API for the Recipes App, built with **NestJS**, **Prisma**, 
 - [Configuration](#configuration)
 - [API Endpoints](#api-endpoints)
 - [Running the Application](#running-the-application)
+
+### Running the Application
+
+![Screenshot_4](https://github.com/user-attachments/assets/985c361d-7f08-4476-9d25-94ba2aea12df)
+![Screenshot_5](https://github.com/user-attachments/assets/98437b90-caeb-49dc-8eeb-85f096c1c34a)
+![Screenshot_6](https://github.com/user-attachments/assets/519b7fa0-bb18-4416-bed0-483e28694ba3)
+![Screenshot_7](https://github.com/user-attachments/assets/403197b3-e3a3-48f8-8900-aff600ad37ae)
+![Screenshot_8](https://github.com/user-attachments/assets/99525e4a-5990-465e-adb7-40a9e15d1888)
+
 
 ### Features
 - Create, read, update, and delete (CRUD) recipes.
@@ -48,7 +44,7 @@ This is the backend API for the Recipes App, built with **NestJS**, **Prisma**, 
 - A Supabase account for database hosting
 - Render account for deployment (optional)
 
-### Installation test location
+### Installation
 1. Clone & Start the project:
    ```bash
    git clone https://github.com/juanfsouza/Recipes_App.git
