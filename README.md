@@ -44,7 +44,7 @@ This is the backend API for the Recipes App, built with **NestJS**, **Prisma**, 
 - A Supabase account for database hosting
 - Render account for deployment (optional)
 
-### Installation
+### Installation test location
 1. Clone & Start the project:
    ```bash
    git clone https://github.com/juanfsouza/Recipes_App.git
@@ -53,17 +53,12 @@ This is the backend API for the Recipes App, built with **NestJS**, **Prisma**, 
    pnpm run start:dev
 
 
-Install dependencies using PNPM:pnpm install
-
 Configuration
 Environment Variables
 Create a .env file in the root directory with the following variables:
 DATABASE_URL=postgresql://postgres:your-supabase-password@db.supabase.co:5432/postgres?schema=public
 DIRECT_URL=postgresql://postgres:your-supabase-password@db.supabase.co:5432/postgres?schema=public
 PORT=3000
-
-Replace your-supabase-password with the password from your Supabase project (found in Settings > Database).
-DATABASE_URL and DIRECT_URL should match your Supabase instance details.
 
 Prisma Schema
 The database schema is defined in prisma/schema.prisma. The current model includes:
@@ -154,7 +149,6 @@ Running the Application
 
 Ensure the .env file is configured.
 Apply database migrations:npx prisma migrate deploy
-
 
 Start the development server:pnpm run start:dev
 
