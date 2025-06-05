@@ -29,11 +29,6 @@ This is the backend API for the Recipes App, built with **NestJS**, **Prisma**, 
 - [Configuration](#configuration)
 - [API Endpoints](#api-endpoints)
 - [Running the Application](#running-the-application)
-- [Deployment](#deployment)
-- [Project Structure](#project-structure)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ### Features
 - Create, read, update, and delete (CRUD) recipes.
