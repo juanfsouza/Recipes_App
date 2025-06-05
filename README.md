@@ -1,11 +1,11 @@
 <div align="center">
 <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
   
-## Challenger Recipes App
+# Challenger Recipes App
 
 </div>
 
-### Run Project Screen
+## Run Project Screen
 
 ![Screenshot_4](https://github.com/user-attachments/assets/985c361d-7f08-4476-9d25-94ba2aea12df)
 ![Screenshot_5](https://github.com/user-attachments/assets/98437b90-caeb-49dc-8eeb-85f096c1c34a)
