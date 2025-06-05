@@ -150,8 +150,6 @@ Running the Application
 Ensure the .env file is configured.
 Apply database migrations:npx prisma migrate deploy
 
-Start the development server:pnpm run start:dev
-
 The API will be available at http://localhost:3000.
 
 Deployment
@@ -160,16 +158,5 @@ The backend is deployed on Render. To redeploy:
 Push changes to the main branch on GitHub.
 Trigger a manual deploy on Render's dashboard.
 Ensure environment variables (DATABASE_URL, DIRECT_URL) are set in Render's environment settings.
-
-Dependencies
-
-@nestjs/common: ^11.1.2
-@nestjs/core: ^11.1.2
-@nestjs/platform-express: ^11.0.1
-@prisma/client: ^6.9.0
-prisma: ^6.9.0
-cors: ^2.8.5
-uuid: ^11.1.0
-
 
 
