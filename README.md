@@ -22,6 +22,12 @@ This is the backend API for the Recipes App, built with **NestJS**, **Prisma**, 
 - [API Endpoints](#api-endpoints)
 - [Running the Application](#running-the-application)
 
+### Features
+- Create, read, update, and delete (CRUD) recipes.
+- Data validation using NestJS pipes.
+- CORS support for frontend integration.
+- Prisma migrations for database schema management.
+  
 ### Running the Application
 
 ![Screenshot_4](https://github.com/user-attachments/assets/985c361d-7f08-4476-9d25-94ba2aea12df)
@@ -29,13 +35,6 @@ This is the backend API for the Recipes App, built with **NestJS**, **Prisma**, 
 ![Screenshot_6](https://github.com/user-attachments/assets/519b7fa0-bb18-4416-bed0-483e28694ba3)
 ![Screenshot_7](https://github.com/user-attachments/assets/403197b3-e3a3-48f8-8900-aff600ad37ae)
 ![Screenshot_8](https://github.com/user-attachments/assets/99525e4a-5990-465e-adb7-40a9e15d1888)
-
-
-### Features
-- Create, read, update, and delete (CRUD) recipes.
-- Data validation using NestJS pipes.
-- CORS support for frontend integration.
-- Prisma migrations for database schema management.
 
 ### Prerequisites
 - Node.js (version 22.14.0 or later)
