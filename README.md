@@ -5,8 +5,6 @@
 
 </div>
 
-## Run Project Screen
-
 ![Screenshot_4](https://github.com/user-attachments/assets/985c361d-7f08-4476-9d25-94ba2aea12df)
 ![Screenshot_5](https://github.com/user-attachments/assets/98437b90-caeb-49dc-8eeb-85f096c1c34a)
 ![Screenshot_6](https://github.com/user-attachments/assets/519b7fa0-bb18-4416-bed0-483e28694ba3)
